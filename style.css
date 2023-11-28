@@ -2,27 +2,27 @@
     display: flex;
     background-image: url(images/banner.png);
     background-attachment: fixed;
-    min-height: 50vh;
-    height: 20em;
+    min-height: 35vh;
+    max-height: 80vh;
     background-position: top;
-    background-size:cover;
+    background-size: 80%;
     background-repeat:no-repeat;
     cursor: url(images/brush.svg), auto;
     flex-direction:column;
 }
 .logo {
     display: flex;
-    margin-top: 2em;
-    width: 75vh;
-    height: 40vh;
+    max-width: 550px;
+    width: 55vw;
+    height: auto;
+    margin-top:2em;
     margin-left: auto;
     margin-right:auto;
 }
 #title{
-    display:flex;
+    display: flex;
     color:aliceblue;
     justify-content: center;
-    margin-bottom: 1em;
 }
 .gallery {
     display: flex;
@@ -51,7 +51,7 @@
     width: 90px;
     cursor: pointer;
     box-shadow: 0 3px 5px rgb(193, 193, 202);
-    margin: 10px;
+    margin: 5px;
     background: rgb(172, 171, 171);
     font-size: 15px;
     line-height: 30px;
@@ -60,10 +60,10 @@
     color:aliceblue;
     border: 0.5px solid rgba(0, 0, 0, 0.648);
     border-radius: 4px;
+
 }
 .filters {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .about{
